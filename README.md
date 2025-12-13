@@ -1,2 +1,2 @@
-# integralsHEHEHEHEHE
-I need make an program that calculate inetrals, let`s ride babe
+Integrals, HEHEHEHEHE
+I will make an program that calculate integrals, let`s ride babe
