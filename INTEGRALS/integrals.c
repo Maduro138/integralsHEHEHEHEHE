@@ -5,6 +5,16 @@
 
 int main(){
 
+    FILE* f = fopen("arquivo1.txt","w");
+    if (f ==NULL){
+        printf("\nAlocação falhou");
+    }
+    else {
+        fprintf(f, "Deu bom :)");
+        fclose(f);
+    }
+    integrals *integrais;
+    
     int escolha = 0;
     int continuar = true;
     while (continuar)
@@ -39,7 +49,9 @@ int main(){
             }
             else if (indefOUdef==2)
             {
-                /*Chamar a outra função*/
+                int a =1;
+                int b=1;
+                CalcularInteINDEF(a,b);
             }
             
             break;
@@ -60,8 +72,41 @@ int main(){
 
 
 
-
-
-
   return 0;   
 }
+int SalvarIntegrais(integrals *integrais,int quantidade){
+
+    printf("\nVamos salvar algumas integrais\n\n");
+
+    FILE* arquivo = fopen("arquivo2.txt","w");
+        if (arquivo == NULL) {
+        printf("Erro ao abrir o arquivo texto para salvar!\n");
+
+    } else {
+        for (int i = 0; i < quantidade; i++) {
+            fprintf(arquivo,"%d- Integral\n",quantidade);
+            fprintf(arquivo,"Máximo da integral %d\n",integrais[i].max);
+            fprintf(arquivo,"Mínimo da integral %d\n",integrais[i].min);
+            fprintf(arquivo,"X elevado a: %d\n",integrais[i].regradeX);
+
+        }
+        fclose(arquivo);
+        printf("Dados salvos em arquivo2.txt.\n");
+    }
+
+    FILE *FF = fopen("arquivobinario.dat","wb");
+    if (FF == NULL) {
+        printf("Erro ao abrir o arquivo binario para salvar!\n");
+        return 0; 
+    }
+    
+    // Salva a quantidade e depois o array de structs
+    fwrite(&quantidade, sizeof(int), 1, FF);
+    fwrite(integrais, sizeof(integrals), quantidade, FF);
+    fclose(FF);
+    
+    printf("Dados salvos em arquivobinario.dat com sucesso.\n");
+    return 1;
+}
+
+
