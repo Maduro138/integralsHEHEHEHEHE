@@ -12,7 +12,7 @@ $$\Huge \int_{a}^{b} f(x) \,dx$$
 
 <br>
 
-> **"Onde o f(x) encontra a function(){printf("Hello f(x)   :) ")}"** 
+> **"  Onde o f(x) encontra a function(){printf("Hello f(x)   :) ")}  "** 
 
 </div>
 
