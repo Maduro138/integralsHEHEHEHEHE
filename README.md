@@ -12,7 +12,7 @@ $$\Huge \int_{a}^{b} f(x) \,dx$$
 
 <br>
 
-> **"Aonde o rigor da matemática encontra a lógica da programação."** 📐 + 💻
+> **"Onde o f(x) encontra a function(){printf("Hello f(x)   :) ")}"** 
 
 </div>
 
@@ -29,10 +29,10 @@ O objetivo? Criar uma solução que ensine e calcule integrais definidas e indef
 
 As linguagens escolhidas para o desafio são:
 
-* ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) **JavaScript** (Web Fullstack)
-* ![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white) **C** (Baixo Nível / Estruturas)
-* ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white) **Java** (POO Clássica)
-* ![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=flat&logo=kotlin&logoColor=white) **Kotlin** (Mobile Moderno)
+* ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) **JavaScript** 
+* ![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white) **C** 
+* ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white) **Java** 
+* ![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=flat&logo=kotlin&logoColor=white) **Kotlin** 
 
 ---
 
