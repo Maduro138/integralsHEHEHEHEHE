@@ -12,7 +12,7 @@ $$\Huge \int_{a}^{b} f(x) \,dx$$
 
 <br>
 
-> **"  Onde o f(x) encontra a function(){printf("Hello f(x)   :) ")}  "** 
+> **"  Onde o f(x) encontra a function(){printf("Hello f(x)   :) ")}... Eu também sei kkkkk  "** 
 
 </div>
 
@@ -36,7 +36,7 @@ As linguagens escolhidas para o desafio são:
 
 ---
 
-## 🚀 Funcionalidades Globais
+## 🚀 Funcionalidades Gerais
 
 Independente da linguagem, todos os projetos deverão:
 1.  🧮 Calcular **Integrais Definidas** (Área sob a curva).
@@ -67,7 +67,7 @@ Algumas linguagens tem suas limitações e por isso, vou definir os parâmetros 
 - [ ] **Desafio:** Criar um sistema de Login e histórico de usuário na 
 
 ### ☕ 3. Java 
-*O foco aqui é a lógica pura e POO.*
+*O foco aqui é a lógica pura*
 
 - [ ] **Objetivo:** Calcular integrais definidas e indefinidas.
 - [ ] **Educativo:** Explicação clara dos conceitos matemáticos.
@@ -105,7 +105,7 @@ Além disso, como no js, com o sistema de cadastro quero "lembrar" quais integra
 
 ## 🤝 Contribuição
 
-Se você também ama (ou odeia, mas respeita) cálculo e quer dar uma ideia de como otimizar aquele algoritmo de *Soma de Riemann*, sinta-se à vontade para abrir uma Issue!
+Se você também ama (ou odeia, mas respeita) cálculo 1 e quer dar uma ideia de como otimizar aquele algoritmo de *Soma de Riemann*, sinta-se à vontade para abrir uma Issue!
 
 ---
 
